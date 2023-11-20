@@ -1,5 +1,5 @@
-var operator = null;
-var inputValueMemo = 0;
+let operator = null;
+let inputValueMemo = 0;
 
 function getContentClick(event) {
   const value = event.target.innerHTML;
